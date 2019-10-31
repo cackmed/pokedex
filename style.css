@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+    height: 15pc;
+    width: 100pc;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: crimson;
+}
+.search-bar {
+ display: block;
+ width: 10pc;
+ height: 40pc;
+ border: 3px solid black;
+ border-radius: 5px;
+ float: left;
+ background-color: crimson;
+}
+button {
+    height: 50px;
+    width: 80px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 5px;
+    transform-style: preserve-3d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pokemon {
+    display: block;
+    margin: auto;
+    background: crimson;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.footer {
+    height: 15pc;
+    width: 100pc;
+    border: 3px solid black;
+    border-radius: 5px; 
+    display: block; 
+}
+img {
+    height: 5pc;
+    width: 5pc;
+    border: 3px solid black;
+    border-radius: 5px;
+    outline: 2px solid black;
+}
+.background {
+    background-color: red;
+}
