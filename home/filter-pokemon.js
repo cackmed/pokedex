@@ -10,6 +10,15 @@ class FilterPokemon extends Component {
     }
     renderHTML() {
         return /*html*/`
+    <div> 
+        <select class="menu2">
+            <option>test</option>
+            <option>test</option>
+            <option>test</option>
+            <option>test</option>
+            <option>test</option>
+            <option>test</option>
+        </select>
         <select class="menu">
                 <option value="" selected>All Types</option>
                 <option value="grass">Grass</option>
@@ -18,7 +27,7 @@ class FilterPokemon extends Component {
                 <option value="bug">Bug</option>
                 <option value="normal">Normal</option>
             </select>
-            
+    </div>
     `;
     }
 }
