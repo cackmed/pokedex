@@ -2,15 +2,15 @@
     display: flex;
     flex-wrap: wrap;
   justify-content: space-between;
-    height: 15pc;
-    width: 100pc;
+    height: 100px; /* 105/645 */
+    width: 100%; /* 105/645 */
     border: 3px solid black;
     border-radius: 5px;
     background-color: crimson;
 }
 .search-bar {
  display: block;
- width: 10pc;
+ width: 16.24%; /* 105/645 */
  height: 40pc;
  border: 3px solid black;
  border-radius: 5px;
@@ -18,10 +18,12 @@
  background-color: crimson;
 }
 button {
-    height: 50px;
-    width: 80px;
+    height: 3pc; /* 105/645 */
+    width: 5pc; /* 105/645 */
 }
-
+input {
+    width: 70px;/* 105/645 */
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -41,8 +43,8 @@ button {
     border-radius: 5px;
 }
 .footer {
-    height: 15pc;
-    width: 100pc;
+    height: 80px; /* 105/645 */
+    width: 100%; /* 105/645 */
     border: 3px solid black;
     border-radius: 5px; 
     display: block; 
