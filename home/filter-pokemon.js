@@ -15,8 +15,10 @@ class FilterPokemon extends Component {
                 <option value="grass">Grass</option>
                 <option value="fire">Fire</option>
                 <option value="water">Water</option>
-                <option value="ground">Ground</option>
+                <option value="bug">Bug</option>
+                <option value="normal">Normal</option>
             </select>
+            
     `;
     }
 }

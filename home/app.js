@@ -31,7 +31,7 @@ class App extends Component {
                 }
                 else {
                     filteredPokemon = pokemon.filter(pokemon => {
-                        return pokemon.type === pokemonType;
+                        return pokemon.type_1 === pokemonType;
                     });
                 }
                 const updateProps = { pokemon: filteredPokemon };

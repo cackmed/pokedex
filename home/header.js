@@ -5,7 +5,7 @@ class Header extends Component {
         return /*html*/`
         <nav class="header">
                     Header
-        <button>Placeholder</button><button>Placeholder</button><button>Placeholder</button>
+        <button>Placeholder</button><button class="home-button">Home</button><button>Placeholder</button>
     </nav>
     `;
     }
