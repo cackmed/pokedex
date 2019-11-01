@@ -10,9 +10,10 @@ class PokemonList extends Component {
             <ul>
             `;
     }
+    
     onRender(dom) {
-        const pokeItem = this.props.images;
-
+        
+        const pokeItem = this.props.pokemon;
         pokeItem.forEach(pokemon => {
             const props = { pokemon: pokemon };
             const pokemonItem = new PokemonItem(props);
